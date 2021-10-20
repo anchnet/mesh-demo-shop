@@ -4,4 +4,4 @@ RUN mkdir /root/app/
 
 ADD shopService.tar.gz /root/app/
 
-#ENTRYPOINT ["bash","/root/app/shopService/start.sh"]
+ENTRYPOINT ["bash","/root/app/shopService/start.sh"]
